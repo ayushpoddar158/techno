@@ -1,0 +1,153 @@
+.maindiv{
+background-color: #0B263B;
+}
+.log0{
+    position: absolute !important;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    z-index: 10000;
+    top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+left: 45vw;
+}
+.log0 p{
+    text-align: center;
+}
+.carasolmain{
+    margin-top: 10vh !important;
+}
+.rightaside{
+    background-color: rgb(244, 205, 6);
+    position: absolute;
+    z-index: 10000;
+    /* width: 200px; */
+    /* height: 20vh; */
+    right: 40px;
+    top: 20vh !important;
+    padding: 30px;
+    border-radius: 20px;
+}
+.leftaside{
+    position: absolute;
+    z-index: 10000;
+    top: 40vh;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.leftaside h3{
+    color: white;
+}
+.leftaside  p{
+    color: rgb(244, 205, 6);
+    font-size: 1.6rem;
+}
+.buttonsection{
+    background-color: #0B263B;
+    height: 20vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.innersection{
+    width: 40vw;
+    /* background-color: red; */
+    display: flex;
+    
+}
+.innersection button{
+    margin: 10px !important;
+    border: 2px solid #ECD571 !important;
+    background-color: #0B263B;
+    border-radius: 5px !important;
+}
+.secsection{
+    background-color: #0B263B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.secsection h1{
+    color: white;
+}
+.secsection ul{
+display: flex;
+
+}
+.secsection li{
+    margin: 10px;color: white;
+
+}
+.innersecsection{
+    width: 30vw !important;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lastsection{
+    background-color: #0B263B;
+    color: white;
+    padding: 40px;
+
+}
+.innerbox1{
+    font-size: 1.5rem;
+    color: #ECD571;
+}
+.lastsection .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid yellow;
+   
+
+}
+.unitcol{
+    border-right: none !important;
+}
+.innerbox2{
+    margin-top: 10px;
+}
+.lastsection .row{
+    margin: 20px;
+}
+.borderline{
+    width: 85vw !important;
+    height: 2px;
+    background-color: yellow;
+}
+.lastbutton{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lastbutton button{
+    width: 30vw;
+    background-color: #0B263B !important;
+    border : 2px solid white;
+}
+.lastbutton button:hover{
+border-color: #ECD571;
+color: yellow;
+}
+.lo{
+    height: 5vh;
+}
+.subbtn{
+    background-color: #0B263B !important; 
+    width: 100% !important;
+}
